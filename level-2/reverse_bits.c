@@ -16,7 +16,6 @@ unsigned char	reverse_bits(unsigned char octet)
 
 int main(void)
 {
-	int	i = 8;
 	unsigned char	bit = 2;
 	bit = reverse_bits(bit);
 	printf("%d", bit);
