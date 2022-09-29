@@ -20,9 +20,17 @@ void	sort_int_tab(int *tab, unsigned int size)
 	}
 }
 
+#include <stdio.h>
+
 int	main()
 {
 	int	tab[] = {4, 5, 42, 3, 7};
 	sort_int_tab(tab, 5);
-	return 0;
+	int	i = 0;
+	while (i < 5)
+	{
+		printf("%d\n", tab[i]);
+		i++;
+	}
+	return (0);
 }
