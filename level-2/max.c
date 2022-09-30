@@ -1,13 +1,16 @@
 int	max(int *tab, unsigned int len)
 {
-	while ()
-}
+	unsigned int	i;
+	int				buffer;
 
-#include <stdio.h>
-
-int	main(void)
-{
-	int	tab[] = {1, 6, 45, 63};
-	printf("%d\n", max(tab, 4));
-	max();
+	i = 0;
+	buffer = 0;
+	while (i < len)
+	{
+		printf("%d\n", i);
+		if (buffer < tab[i])
+			buffer = tab[i];
+		i++;
+	}
+	return (buffer);
 }
